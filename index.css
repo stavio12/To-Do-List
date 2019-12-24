@@ -1,0 +1,42 @@
+input{
+text-align: center;
+background:#1EAEDB;
+border: transparent;
+border-radius: 2px;
+font-size: 15px;
+padding: 10px;
+width: 33.5%;
+color: white;
+}
+
+input:hover{
+    cursor: pointer;
+    background: #0FA0CE; 
+
+}
+
+
+#dolist{
+    text-align: center;
+    margin-top: -13em;
+}
+
+#dolist li{
+padding: 7px;
+text-align: justify;
+list-style-type: none;
+margin-left: 15em;
+
+}
+
+#dolist .remove-list{
+float: right;
+margin-right: 20em;
+margin-top: 0em;
+color: red !important;
+}
+
+#dolist .remove-list:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
